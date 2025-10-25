@@ -1,3 +1,97 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local configuration
+local.properties
+*.iml
+
+# Android Studio
+.idea/
+*.ipr
+*.iws
+out/
+
+# Log files
+*.log
+
+# Android specific
+captures/
+output.json
+
+# Keystore files
+*.jks
+*.keystore
+
+# IntelliJ
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/misc.xml
+
+# Jetpack Compose preview cache
+/.idea/compose-preview-cache/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Gradle caches
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# APKs / Bundles
+*.apk
+*.ap_
+*.aab
+
+# Kotlin specific
+*.class
+*.jar
+*.war
+*.ear
+
+# Temporary files
+*.tmp
+*.temp
+
+# Generated files
+generated/
+.navigation/
+
+# Unit test reports
+test-results/
+reports/
+
+# Lint
+lint/
+lint-report.html
+lint-results.xml
+
+# NDK
+obj/
+.externalNativeBuild/
+
+# Google Services (if used)
+google-services.json
+
+# Firebase Crashlytics (optional)
+crashlytics-build.properties
+
+# Local gradle wrapper files
+gradle-app.setting
+.gradle/
+
+# Misc
+*.swp
+*.swo
+*.bak
+
 *.iml
 .gradle
 /local.properties
